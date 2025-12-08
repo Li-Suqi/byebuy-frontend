@@ -1,1 +1,231 @@
-/* index for ByeBuy Homepage */
+.entry {
+  height: 500px;
+  background-color: #f5f5f5;
+}
+.entry .w {
+  height: 100%;
+  background: url(../uploads/andy-luo-eYpQxgMqqOM-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0 -250px;
+}
+
+.category {
+  width: 250px;
+  height: 500px;
+  background: rgba(0, 0, 0, .42)
+}
+
+.category ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 12px 0 29px;
+  color: #fff;
+}
+.category ul li:hover {
+  background-color: #00be9a;
+}
+
+.category ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.category ul li a:first-child {
+  font-size: 16px;
+}
+
+.box-head {
+  display: flex;
+  height: 112px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-head h2 {
+  font-size: 30px;
+}
+
+.box-head h2 small{
+  font-size: 16px;
+  color: #a1a1a1;
+  margin-left: 30px;
+}
+
+.box-head a {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+
+.box-bd ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-bd ul li {
+  width: 304px;
+  height: 404px;
+  background-color: #eef9f4;
+  text-align: center;
+}
+
+.box-bd ul li a {
+  display: block;
+  height: 100%;
+}
+
+.box-bd ul li img{
+  width: 304px;
+  height: 304px;
+}
+
+.box-bd ul li .title{
+  margin: 18px 0 15px;
+  font-size: 20px;
+  padding: 0 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box-bd ul li .price {
+  font-size: 20px;
+  color: #aa2113
+}
+
+.hot .box-bd ul li {
+  background-color: #fff;
+}
+.hot {
+  margin-bottom: 60px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 102px;
+  padding-top: 10px;
+}
+
+.head h2 {
+  font-size: 30px;
+}
+
+.head .head-right {
+  display: flex;
+}
+
+.head .head-right .more{
+  font-size: 16px;
+  color: #a1a1a1;
+  margin-left: 60px;
+}
+
+.head .head-right ul {
+  display: flex;
+  gap: 10px;
+}
+
+.head .head-right ul li a {
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.head .head-right ul li a:hover {
+  color: #fff;
+  padding: 3px 8px;
+  background-color: #00be9a;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body .body-left {
+  width: 248px;
+  height: 610px;
+}
+
+.body .body-left img {
+  width: 248px;
+  height: 610px;
+}
+
+.body .body-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 968px;
+  height: 610px;
+}
+
+.body .body-right li {
+  height: 305px;
+  width: 242px;
+  padding: 10px 21px 0;
+}
+
+.body .body-right li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 19px;
+}
+
+.body .body-right li a img {
+  width: 200px;
+  height: 180px;
+}
+.body .body-right li .title {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.body .body-right li .price {
+  font-size: 22px;
+  color: #af2f22;
+  margin-top: 12px;
+}
+
+.body .body-right li small {
+  font-size: 16px;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.news {
+  margin-bottom: 60px;
+}
+.news ul {
+  display: flex;
+  gap: 12px
+}
+.news ul li {
+  flex: 1;
+  height: 355px;
+}
+
+.news ul li img {
+  width: 100%;
+  height: 288px;
+}
+
+.news .con {
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.news .con .like {
+  margin-right: 20px;
+}
