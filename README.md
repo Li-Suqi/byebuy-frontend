@@ -28,4 +28,4 @@ This is a pure front-end project using HTML and CSS (Flexbox). It builds a stati
 - All data shown is sample content for layout practice.
 
 ## License
-- MIT License
+[MIT License](https://opensource.org/licenses/MIT)
